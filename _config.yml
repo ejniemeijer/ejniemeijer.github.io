@@ -50,7 +50,8 @@ feedback: true
 # logo: "assets/img/logo/SRCC-square-red.png"
 logo: "https://www.ultimo.com/cms/wp-content/themes/inline/dist/images/logo.svg"
 logo_pixels: 34
-color: "#30638e"
+color: "#263682"
+# color: "#30638e"
 # color: "#8c1515" # primary color for header, buttons
 
 # Build settings
