@@ -34,9 +34,9 @@ github_user: "vsoch"
 github_repo: "docsy-jekyll"
 
 # Optional
-twitter: vsoch
-linkedin: vsochat
-dockerhub: vanessa
+twitter: 
+linkedin: 
+dockerhub: 
 
 # Should there be feedback buttons at the bottom of pages?
 feedback: true
