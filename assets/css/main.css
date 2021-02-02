@@ -17955,7 +17955,8 @@ a.text-dark:focus {
 
 .td-navbar .navbar-brand svg {
     display: inline-block;
-    margin: 0 10px;
+    margin-left: 10px;
+    margin-right: 30px;
     height: 30px
 }
 
