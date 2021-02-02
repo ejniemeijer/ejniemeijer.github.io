@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome landing
+title: Welcome UltimoDev
 permalink: /
 ---
 
