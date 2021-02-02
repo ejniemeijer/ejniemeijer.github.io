@@ -6,9 +6,9 @@ tags:
 description: Getting started with Docsy Jekyll
 ---
 
-# Getting Started
+# Interface
 
-## Features
+## Rest API
 
 ### User Interaction
 
@@ -226,7 +226,7 @@ You can include block quotes to emphasize text.
 
 > Here is an example. Isn't this much more prominent to the user?
 
-## Development
+## UBI Connectors
 
 Initially (on OS X), you will need to setup [Brew](http://brew.sh/) which is a package manager for OS X and [Git](https://git-scm.com/). To install Brew and Git, run the following commands:
 

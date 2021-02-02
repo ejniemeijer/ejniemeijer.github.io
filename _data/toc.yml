@@ -7,7 +7,7 @@
         - title: Rest API
           url: "docs/getting-started#getting-started"
         - title: UBI Connectors
-          url: "docs/getting-started#development"
+          url: "docs/getting-started#ubi connectors"
         - title: Customization
           url: "docs/getting-started#customization"
     - title: "Extras"
