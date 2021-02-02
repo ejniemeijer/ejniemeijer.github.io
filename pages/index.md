@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: start
 title: Welcome UltimoDev
 permalink: /
 ---
