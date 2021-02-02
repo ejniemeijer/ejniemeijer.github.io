@@ -30,6 +30,7 @@ baseurl: "/ejniemeijer.github.io" # the subpath of your site, e.g. /blog
 
 # Social (First three Required)
 repo: https://github.com/ejniemeijer/ejniemeijer.github.io
+restapi: https://integrations-playground.ultimo.com/docs/index.html?version=v1&apiKey=E98A60772F574264BEF845115A32D388
 github_user: 
 github_repo: 
 
