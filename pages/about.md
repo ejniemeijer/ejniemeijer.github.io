@@ -1,7 +1,7 @@
 ---
 layout: start
 title: Ultimo Docs | About
-permalink:
+permalink: /about/
 ---
 
 # About
