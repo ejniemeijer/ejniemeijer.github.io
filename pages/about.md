@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <p align="center">
-# About
+# Abouts
 </p>
 
 This is a [starter template](https://vsoch.github.com/docsy-jekyll/) for a Docsy jekyll theme, based
