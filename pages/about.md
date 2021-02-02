@@ -1,6 +1,6 @@
 ---
 layout: start
-title: About
+title: Ultimo Docs | About
 permalink: /about/
 ---
 
