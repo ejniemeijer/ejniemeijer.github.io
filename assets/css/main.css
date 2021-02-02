@@ -5355,7 +5355,7 @@ input[type=button].btn-block {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, .75)
+    color: rgba(255, 255, 255, 100)
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -17961,7 +17961,7 @@ a.text-dark:focus {
 
 .td-navbar .nav-link {
     text-transform: none;
-    font-weight: 700
+    font-weight: 400
 }
 
 .td-navbar .td-search-input {
