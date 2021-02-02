@@ -1,4 +1,5 @@
 ---
+layout: start
 title: About
 permalink: /about/
 ---
