@@ -5,22 +5,7 @@ permalink: /news/
 
 # News
 
-<p>Subscribe with <a href="{{ site.baseurl }}/feed.xml">RSS</a> to keep up with the latest news.
-For site changes, see the <a href="https://github.com/{{ site.github_user }}/{{ site.github_repo }}/blob/master/CHANGELOG.md">changelog</a> kept with the code base.</p>
+Subscribe with [RSS](https://github.com/ejniemeijer/ejniemeijer.github.io/tree/740d53572bc4d1014c58a21dbcec9481948e9976/pages/%7B%7B%20site.baseurl%20%7D%7D/feed.xml) to keep up with the latest news. For site changes, see the [changelog](https://github.com/{{%20site.github_user%20}}/{{%20site.github_repo%20}}/blob/master/CHANGELOG.md) kept with the code base.
 
-<br>
+Want to see more? See the [News Archive](https://github.com/ejniemeijer/ejniemeijer.github.io/tree/740d53572bc4d1014c58a21dbcec9481948e9976/pages/%7B%7B%20site.baseurl%20%7D%7D/archive/README.md).
 
-{% for post in site.posts limit:10 %}
-   <div class="post-preview">
-   <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-   <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span><br>
-   {% if post.badges %}{% for badge in post.badges %}<span class="badge badge-{{ badge.type }}">{{ badge.tag }}</span>{% endfor %}{% endif %}
-   {{ post.content | split:'<!--more-->' | first }}
-   {% if post.content contains '<!--more-->' %}
-      <a href="{{ site.baseurl }}{{ post.url }}">read more</a>
-   {% endif %}
-   </div>
-   <hr>
-{% endfor %}
-
-Want to see more? See the <a href="{{ site.baseurl }}/archive/">News Archive</a>.

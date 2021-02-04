@@ -5,12 +5,7 @@ description: How to add interactive quizzes to your site.
 
 # Quizzes
 
-As of version 0.0.12, mkdocs-jekyll has support for basic quizzes! These are
-intended to help educate your users about the content of your documentation.
-For a quiz, you can add a new file to the folder `_data/quizzes`, and write a 
-questions file based on the format shown in `_data/quizzes/example-quiz.yml`.
-Here is a simple example of a multiple choice question (which can also serve as 
-True/False):
+As of version 0.0.12, mkdocs-jekyll has support for basic quizzes! These are intended to help educate your users about the content of your documentation. For a quiz, you can add a new file to the folder `_data/quizzes`, and write a questions file based on the format shown in `_data/quizzes/example-quiz.yml`. Here is a simple example of a multiple choice question \(which can also serve as True/False\):
 
 ```yaml
 title: This is the Quiz Title
@@ -30,34 +25,25 @@ questions:
       4 hours and 52 minutes. Buckle up!
 ```
 
-The quiz is rendered with a "Show Answer" button below each question, and when
-the user clicks it, any questions that are flagged with `correct: true` will be 
-bolded, and if a followup section is included, it will be displayed.
-See the live example at the end of this page.
+The quiz is rendered with a "Show Answer" button below each question, and when the user clicks it, any questions that are flagged with `correct: true` will be bolded, and if a followup section is included, it will be displayed. See the live example at the end of this page.
 
 ## Options
 
-#### Title
+### Title
 
-If you include a title, it will be rendered at the top of the quiz. This is
-optional - you can leave it out and add it before the include on the page.
+If you include a title, it will be rendered at the top of the quiz. This is optional - you can leave it out and add it before the include on the page.
 
-#### Random
+### Random
 
-If you want your questions to be presented randomly, just add randomized: true
-to the data.
-
+If you want your questions to be presented randomly, just add randomized: true to the data.
 
 ## Example Quiz
 
-If I want to include the quiz located at `_data/quizzes/example-quiz.yml`, I 
-can do so like this:
+If I want to include the quiz located at `_data/quizzes/example-quiz.yml`, I can do so like this:
 
-```
+```text
 {% raw %}{% include quiz.html file='example-quiz' %}{% endraw %}
 ```
 
 The rendered quiz is shown here:
 
-
-{% include quiz.html file='example-quiz' %}

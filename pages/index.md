@@ -14,19 +14,21 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 
 ## Features
 
-What are these features? You should see the {% include doc.html name="Getting Started" path="getting-started" %}
+What are these features? You should see the
+
 guide for a complete summary. Briefly:
 
- - *User interaction* including consistent permalinks, links to ask questions via GitHub issues, and edit the file on GitHub directly.
- - *Search* across posts, documentation, and other site pages, with an ability to exclude from search.
- - *External Search* meaning an ability to link any page tag to trigger an external search.
- - *Documentation* A documentation collection that was easy to organize on the filesystem, render with nested headings for the user, and refer to in markdown.
- - *Pages* A separate folder for more traditional pages (e.g, about).
- - *Navigation*: Control over the main navigation on the left of the page, and automatic generation of table of contents for each page on the right.
- - *News* A posts feed for news and updates, along with an archive (organized by year).
- - *Templates* or specifically, "includes" that make it easy to create an alert, documentation link, or other content.
- - *Continuous Integration* recipes to preview the site
+* _User interaction_ including consistent permalinks, links to ask questions via GitHub issues, and edit the file on GitHub directly.
+* _Search_ across posts, documentation, and other site pages, with an ability to exclude from search.
+* _External Search_ meaning an ability to link any page tag to trigger an external search.
+* _Documentation_ A documentation collection that was easy to organize on the filesystem, render with nested headings for the user, and refer to in markdown.
+* _Pages_ A separate folder for more traditional pages \(e.g, about\).
+* _Navigation_: Control over the main navigation on the left of the page, and automatic generation of table of contents for each page on the right.
+* _News_ A posts feed for news and updates, along with an archive \(organized by year\).
+* _Templates_ or specifically, "includes" that make it easy to create an alert, documentation link, or other content.
+* _Continuous Integration_ recipes to preview the site
 
+For features, getting started with development, see the
 
-For features, getting started with development, see the {% include doc.html name="Getting Started" path="getting-started" %} page. Would you like to request a feature or contribute?
-[Open an issue]({{ site.repo }}/issues)
+page. Would you like to request a feature or contribute? [Open an issue](https://github.com/ejniemeijer/ejniemeijer.github.io/tree/740d53572bc4d1014c58a21dbcec9481948e9976/pages/%7B%7B%20site.repo%20%7D%7D/issues/README.md)
+

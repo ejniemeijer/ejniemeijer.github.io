@@ -6,14 +6,11 @@ permalink: /docs/
 
 # Documentation
 
-Welcome to the {{ site.title }} Documentation pages! Here you can quickly jump to a 
-particular page.
+Welcome to the  Documentation pages! Here you can quickly jump to a particular page.
 
-<div class="section-index">
-    <hr class="panel-line">
-    {% for post in site.docs  %}        
-    <div class="entry">
-    <h5><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h5>
-    <p>{{ post.description }}</p>
-    </div>{% endfor %}
-</div>
+ {% for post in site.docs %}
+
+## [{{ post.title }}](https://github.com/ejniemeijer/ejniemeijer.github.io/tree/740d53572bc4d1014c58a21dbcec9481948e9976/pages/%7B%7B%20post.url%20%7C%20prepend:%20site.baseurl%20%7D%7D)
+
+{{ post.description }}{% endfor %}
+
