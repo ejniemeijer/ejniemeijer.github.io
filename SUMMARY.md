@@ -20,4 +20,5 @@
   * [2019-06-29-welcome](_posts/2019-06-29-welcome.md)
   * [2019-06-28-hello-world](_posts/2019-06-28-hello-world.md)
 * [Changelog](changelog.md)
+* [Swagger](https://integrations-playground.ultimo.com/docs/index.html?version=v1&apiKey=E98A60772F574264BEF845115A32D388)
 
